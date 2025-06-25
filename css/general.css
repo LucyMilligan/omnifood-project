@@ -27,7 +27,12 @@ Paragraph default: 1.6
 - Tints: #fdf2e9, #fae5d3, #eb984e
 - Shades: #cf711f, #45260a
 - Accents:
-- Greys: #555, #333, #ddd, #6f6f6f (lightest grey allowed on #fdf2e9)
+- Greys: 
+#333
+#555
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#767676 (lightest grey allowed on #fff)
+#ddd
 
 --- 03 IMAGES and 04 ICONS
 
@@ -103,6 +108,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
